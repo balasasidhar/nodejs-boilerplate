@@ -1,6 +1,7 @@
 {
+  "parser": "babel-eslint",
   "parserOptions": {
-    "ecmaVersion": 6,
+    "ecmaVersion": 8,
     "sourceType": "module"
   },
   "env": {
@@ -18,8 +19,7 @@
     "promise/no-promise-in-callback": "error",
     "promise/no-callback-in-promise": "error",
     "promise/no-return-in-finally": "error",
-    "prefer-arrow-callback": "error",
-    "arrow-parens": ["error", "as-needed"]
+    "prefer-arrow-callback": "error"
   },
   "plugins": ["promise"]
 }
