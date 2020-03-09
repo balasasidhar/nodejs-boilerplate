@@ -14,7 +14,7 @@ git clone https://github.com/balasasidhar/nodejs-express-babel-boilerplate.git
 npm installl
 ```
 
-3. Create `.env` file in the root of object (used to secure credentials, for more details refer [dotenv docs](https://www.npmjs.com/package/dotenv))
+3. Create `.env` file in the root directory (used to secure credentials, for more details refer [dotenv docs](https://www.npmjs.com/package/dotenv))
 
 ```
 touch .env
